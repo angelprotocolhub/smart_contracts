@@ -1,0 +1,12 @@
+contracts_folder: contracts
+dependencies:
+- github: OpenZeppelin/openzeppelin-contracts
+  name: OpenZeppelin
+  version: 4.8.3
+- github: smartcontractkit/chainlink
+  name: smartcontractkit
+  version: 1.13.0
+solidity:
+  import_remapping:
+  - '@openzeppelin/contracts=OpenZeppelin/4.8.3'
+  - '@chainlink/contracts=smartcontractkit/1.13.0'
